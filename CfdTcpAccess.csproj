@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+	<ApplicationIcon>ico/app.ico</ApplicationIcon>
+	<Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>CfdTcpAccess</AssemblyName>
+    <RootNamespace>CfdTcpAccess</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Product>Cloudflare Tunnel TCP Access 助手</Product>
+    <AssemblyTitle>Cloudflare Tunnel TCP Access 助手</AssemblyTitle>
+    <Version>1.1.0</Version>
+    <NeutralLanguage>zh-Hans</NeutralLanguage>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <DebugType>none</DebugType>
+    <SatelliteResourceLanguages>zh-Hans;en</SatelliteResourceLanguages>
+ 
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ico\app.ico" />
+  </ItemGroup>
+
+</Project>
